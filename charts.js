@@ -164,7 +164,7 @@ function buildCharts(sample) {
           marker: {
             size: values,
             color: ids,
-            colorscale: "Portland"
+            colorscale: "navy"
     }
     }];
     // 2. Create the layout for the bubble chart.
@@ -219,11 +219,11 @@ function buildCharts(sample) {
         axis: {range: [null,10]},
         bar: {color: "black"},
         steps: [
-          {range: [0,2], color: "red"},
+          {range: [0,2], color: "firebrick"},
           {range: [2,4], color: "orange"},
-          {range: [4,6], color: "yellow"},
-          {range: [6,8], color: "lightgreen"},
-          {range: [8,10], color: "green"}
+          {range: [4,6], color: "seagreen"},
+          {range: [6,8], color: "aliceblue"},
+          {range: [8,10], color: "pink"}
         ],
         dtick: 2 
       }
